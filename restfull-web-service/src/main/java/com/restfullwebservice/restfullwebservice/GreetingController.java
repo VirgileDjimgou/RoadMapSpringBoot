@@ -17,4 +17,8 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
+    //// je ne suis pas sur de cela...
+    // tu fais ce que
+    // je ne suis pas sur de cela   ...
+
 }
