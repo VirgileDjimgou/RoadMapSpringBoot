@@ -17,8 +17,18 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
-    //// je ne suis pas sur de cela...
-    // tu fais ce que
-    // je ne suis pas sur de cela   ...
+    public info(){
+        // public
+    }
+
+    public String testcontroller(){
+
+        // fonction de test et de parsing des donnees entrantes  ...
+        String InData = "test dat ";
+        String OutData = "Test data Out";
+        String Returndata = "";
+
+        return  Returndata;
+    }
 
 }
